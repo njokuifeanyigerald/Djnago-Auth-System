@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth | {{title}}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+    <div  class="mt-5 container text-capitalize">
+        <h2>register your account</h2>
+        <form method="POST" action="">
+            <input type="text" placeholder="Username" class="form-control mb-3">
+            <input type="email" placeholder="Email" class="form-control mb-3">
+            <input type="password" placeholder="Password" class="form-control mb-3">
+            <input type="password" placeholder="Confirm Password" class="form-control mb-3">
+            <input type="submit" class="btn btn-outline-success mb-3">
+        </form>
+        <p>already have an account? <a href="{% url 'login' %}">login</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+/auth_sys/__pycache__
+/app/__pycache__
+/app/migrations
+/db.sqlite3
